@@ -3,4 +3,14 @@
     <string name="senha">SENHA</string>
     <string name="conectar">CONECTAR</string>
     <string name="usuario">USUÁRIO</string>
+    <string name="nome_do_planeta">Nome do Planeta</string>
+    <string name="imagem_do_personagem">Imagem do personagem</string>
+    <string name="nome">Nome:</string>
+    <string name="clima">Clima:</string>
+    <string name="populacao">População:</string>
+    <string name="nome_do_planeta_title">Nome do planeta</string>
+    <string name="clima_do_planeta">Clima do planeta</string>
+    <string name="_10000">10000</string>
+    <string name="dados_do_planeta">DADOS DO PLANETA</string>
+    <string name="filmes">FILMES</string>
 </resources>
