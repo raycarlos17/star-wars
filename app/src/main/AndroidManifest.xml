@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/logo_star_wars"
         android:supportsRtl="true"
         android:theme="@style/Theme.Starwars">
-        <activity android:name=".DetalhesPlaneta"></activity>
+        <activity android:name=".InformacoesPersonagens"></activity>
+        <activity android:name=".DetalhesPlaneta" />
         <activity android:name=".GaleriaPersonagens" />
         <activity android:name=".ListaPlanetas" />
         <activity android:name=".MenuPrincipal" />

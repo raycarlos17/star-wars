@@ -13,4 +13,11 @@
     <string name="_10000">10000</string>
     <string name="dados_do_planeta">DADOS DO PLANETA</string>
     <string name="filmes">FILMES</string>
+    <string name="nome_do_personagem">Nome do Personagem</string>
+    <string name="planeta_de_origem">Planeta de origem:</string>
+    <string name="nome_do_planeta_de_origem">Nome do planeta de origem</string>
+    <string name="genero">Gênero:</string>
+    <string name="genero_do_personagem">Gênero do Personagem</string>
+    <string name="ano_do_nascimento">Ano do nascimento:</string>
+    <string name="exemplo_data_nascimento">17/02/1997</string>
 </resources>
