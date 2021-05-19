@@ -7,5 +7,6 @@ class DetalhesPlaneta : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalhes_planeta)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

@@ -17,40 +17,40 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_planetas"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="@id/btn_personagens"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#2979FF"
         android:text="PLANETAS"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:backgroundTint="#2979FF"
-        android:layout_marginTop="130dp"
-        android:layout_width="280dp"
         app:cornerRadius="10dp"
-        android:layout_height="80dp"/>
-
-    <com.google.android.material.button.MaterialButton
+        app:layout_constraintBottom_toBottomOf="@id/btn_personagens"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btn_planetas"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_personagens"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@android:color/holo_red_dark"
-        app:cornerRadius="10dp"
         android:text="PERSONAGENS"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="30dp"
-        android:id="@+id/btn_personagens"
-        android:layout_width="280dp"
-        android:layout_height="80dp"/>
+        app:cornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_planetas" />
 
     <ImageView
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/darth_vader"
-        app:layout_constraintTop_toBottomOf="@id/btn_personagens"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_personagens" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

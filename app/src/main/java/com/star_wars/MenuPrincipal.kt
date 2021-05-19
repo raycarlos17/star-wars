@@ -9,6 +9,8 @@ class MenuPrincipal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_principal)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
         btn_planetas.setOnClickListener {
             telaListaPlanetas()
