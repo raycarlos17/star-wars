@@ -14,23 +14,23 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/Theme.Starwars">
         <activity
-            android:name=".InformacoesPersonagens"
-            android:parentActivityName=".GaleriaPersonagens" />
+            android:name=".view.InformacoesPersonagens"
+            android:parentActivityName=".view.GaleriaPersonagens" />
         <activity
-            android:name=".DetalhesPlaneta"
-            android:parentActivityName=".MenuPrincipal" />
+            android:name=".view.DetalhesPlaneta"
+            android:parentActivityName=".view.MenuPrincipal" />
         <activity
-            android:name=".GaleriaPersonagens"
+            android:name=".view.GaleriaPersonagens"
             android:launchMode="singleTop"
-            android:parentActivityName=".MenuPrincipal" />
+            android:parentActivityName=".view.MenuPrincipal" />
         <activity
-            android:name=".ListaPlanetas"
+            android:name=".view.ListaPlanetas"
             android:launchMode="singleTop"
-            android:parentActivityName=".DetalhesPlaneta" />
+            android:parentActivityName=".view.DetalhesPlaneta" />
         <activity
-            android:name=".MenuPrincipal"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name=".view.MenuPrincipal"
+            android:parentActivityName=".view.MainActivity" />
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

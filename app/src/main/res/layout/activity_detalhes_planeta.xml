@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/star_wars_background"
-    tools:context=".DetalhesPlaneta">
+    tools:context=".view.DetalhesPlaneta">
 
     <TextView
         android:id="@+id/tv_filmes"

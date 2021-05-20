@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/star_wars_background"
-    tools:context=".InformacoesPersonagens">
+    tools:context=".view.InformacoesPersonagens">
 
     <ImageView
         android:id="@+id/iv_capa_personagem"
